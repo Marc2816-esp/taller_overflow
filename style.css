@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+header {
+  border: 2px black solid;
+  max-height: 100px;
+  overflow: scroll;
+  direction:inherit;
+}
+
+header h1 {
+  width: 200%;
+  direction: ltr;
+}
+
+section {
+  height: 300px;
+}
+
+article {
+  width: 50%;
+  height: 250px;
+  float: left;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  direction: rtl;
+}
+
+article:first-child {
+    overflow-x: hidden;
+    overflow-y: auto ;
+}
+
+footer {
+  overflow: hidden;  
+}
+
+footer p {
+  white-space: nowrap;
+}
